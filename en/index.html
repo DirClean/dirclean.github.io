@@ -33,7 +33,7 @@
 
 <body class="mdui-drawer-body-left mdui-appbar-with-toolbar">
     <!-- appbar -->
-    <div class="mdui-appbar mdui-appbar-fixed mdui-color-white">
+    <div class="mdui-appbar mdui-appbar-fixed mdui-color-blue">
         <div class="mdui-toolbar">
             <a mdui-drawer="{target: '#drawer'}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a><span class="mdui-typo-title">Dir</span>
             <div class="mdui-toolbar-spacer">
@@ -81,7 +81,7 @@
             </div>
             <div class="mdui-col-xs-11 mdui-col-sm-8 mdui-col-offset-sm-2 mdui-col-md-6 mdui-col-offset-md-3">
                 <ul class="mdui-list">
-                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons">do_not_disturb_alt</i>
+                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons mdui-color-red">do_not_disturb_alt</i>
                         <div class="mdui-list-item-content">
                             <div class="mdui-list-item-title">
                                 <strong>Stops Apps from Creating Garbage Folders</strong>
@@ -92,7 +92,7 @@
                         </div>
                     </li>
                     <li class="mdui-divider-inset mdui-m-y-0"></li>
-                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons">check</i>
+                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons mdui-color-green mdui-text-color-white">check</i>
                         <div class="mdui-list-item-content">
                             <div class="mdui-list-item-title">
                                 <strong>Supports More Apps</strong>
@@ -103,7 +103,7 @@
                         </div>
                     </li>
                     <li class="mdui-divider-inset mdui-m-y-0"></li>
-                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons">format_paint</i>
+                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons mdui-color-pink">format_paint</i>
                         <div class="mdui-list-item-content">
                             <div class="mdui-list-item-title">
                                 <strong>Material Design</strong>
@@ -114,7 +114,7 @@
                         </div>
                     </li>
                     <li class="mdui-divider-inset mdui-m-y-0"></li>
-                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons">remove_circle_outline</i>
+                    <li class="mdui-list-item mdui-ripple mdui-hoverable"><i class="mdui-list-item-avatar mdui-icon material-icons mdui-color-cyan mdui-text-color-white">local_florist</i>
                         <div class="mdui-list-item-content">
                             <div class="mdui-list-item-title">
                                 <strong>Tidy and Green with Love</strong>
@@ -126,8 +126,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
-        <div class="mdui-divider">
         </div>
         <br>
 
@@ -182,15 +180,13 @@
             <li class="mdui-subheader"><strong>Download Dir</strong></li>
             <a href="https://play.google.com/store/apps/details?id=kh.android.dir" target="_blank" class="mdui-list-item mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">shop</i>
             <div class="mdui-list-item-content">
-                <div class="mdui-list-item-title">Google Play</div>
-                <span class="mdui-menu-item-helper">Download Play Edition</span>
+                <div class="mdui-list-item-title">Google Play version</div>
                 <div class="mdui-list-item-text">The Play Edition only supports purchasing full version via Play Store</div>
             </div>
             </a>
-            <a href="https://api.trumeet.top/dir/v1/beta?stable" target="_blank" class="mdui-list-item mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">shopping_basket</i>
+            <a id="download-apk" href="https://api.trumeet.top/dir/v1/beta?stable" class="mdui-list-item mdui-ripple"><i class="mdui-menu-item-icon mdui-icon material-icons">shopping_basket</i>
         <div class="mdui-list-item-content">
             <div class="mdui-list-item-title">APK</div>
-            <span class="mdui-menu-item-helper">Download Local Edition</span>
             <div class="mdui-list-item-text">The Local Edition only supports purchasing full version via Alipay</div>
         </div>
         </a>
@@ -229,6 +225,12 @@
         $$('#download-beta-apk').on('click', function () {
             mdui.snackbar({
                 message: 'Beta APK is being Downloaded'
+            });
+        });
+
+        $$('#download-apk').on('click', function () {
+            mdui.snackbar({
+                message: 'APK is being Downloaded'
             });
         });
     </script>
