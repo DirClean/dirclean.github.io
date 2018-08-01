@@ -255,13 +255,15 @@
         function autodark() {
             var body = mdui.JQ('body')[0]
             var cls = body.classList
-            if (shouldApplyDarkStyle())
+            if (shouldApplyDarkStyle()) {
                 cls.add(MDUI_DARK_CLASS)
-            else
+                $$('#laboratory').attr('fill', 'white');
+                $$('#telegram').attr('fill', 'white');
+            } else {
                 cls.remove(MDUI_DARK_CLASS)
-
-            $$('#laboratory').attr('fill', 'white');
-            $$('#telegram').attr('fill', 'white');
+                $$('#laboratory').attr('fill', 'grey');
+                $$('#telegram').attr('fill', 'grey');
+            }
         }
         autodark();
     </script>
