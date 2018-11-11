@@ -1,0 +1,17 @@
+<html>
+    <head lang="en">
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width initial-scale=1'>          
+        <title></title>
+    </head>
+    <body>
+        <script>
+            var lang = navigator.language || navigator.userLanguage; 
+            if(lang.substr(0, 2) == "en") 
+                location = "./en.html";
+            else if(lang.substr(0, 2) == "zh") 
+                location = "./zh-cn.html";
+        </script>
+        <p>Loading article...</p>
+    </body>
+</html>
