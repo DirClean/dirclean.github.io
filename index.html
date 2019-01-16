@@ -28,10 +28,22 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8BQTWL"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-	<script>
-		var lang = navigator.language || navigator.userLanguage; if(lang.substr(0, 2) == "en") location = "https://dir.yuuta.moe/en/";
-else if(lang.substr(0, 2) == "zh") location = "https://dir.yuuta.moe/zh/";
-	</script>
+	<script type="text/javascript">
+　　var type = navigator.appName;
+　　if (type == "Netscape"){
+    　　var lang = navigator.language;//获取浏览器配置语言，支持非IE浏览器
+　　}else{
+    　　var lang = navigator.userLanguage;//获取浏览器配置语言，支持IE5+ == navigator.systemLanguage
+　　};
+　　var lang = lang.substr(0, 2);//获取浏览器配置语言前两位
+　　if (lang == "zh"){
+　　    window.location.replace('https://dir.yuuta.moe/zh/');//中文编码时打开链接
+　　}else if (lang == "en"){
+   　　 window.location.replace('https://dir.yuuta.moe/en/');
+　　}else{//其他语言编码时打开以下链接
+   　　 window.location.replace('https://dir.yuuta.moe/en/');
+　　};
+</script>
 
 </body>
 
