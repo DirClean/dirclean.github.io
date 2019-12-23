@@ -19,4 +19,6 @@ Because we've updated our system, you can't activate with order number directly.
 You can just paste your key into the dialog.
 
 ## I had purchased from appline.store (former shop.yuuta.moe)
-Please follow [https://appline.store/how-to-activate-original-software/](https://appline.store/how-to-activate-original-software/) to activate.
+Please follow [Store Activation](/activate-store) to activate.
+
+If you have other questions, take a look at [Activate FAQ](/activate-faq)

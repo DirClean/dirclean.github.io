@@ -19,4 +19,6 @@ Dir 提供了多种激活方式，如果您已购买或具有一个激活码，�
 请将您的激活码填入即可。
 
 ## 我在 appline.store （前 shop.yuuta.moe） 购买
-请参阅 [https://appline.store/how-to-activate-original-software/](https://appline.store/how-to-activate-original-software/) 进行激活
+请参阅 [商店激活](/zh-hans/activate-store) 进行激活
+
+有更多问题请参阅 [激活常见问题](/zh-hans/activate-faq)
