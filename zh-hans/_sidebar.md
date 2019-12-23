@@ -1,6 +1,9 @@
 - [主页](/zh-hans)
 - [开始使用](/zh-hans/get-started)
 
+- 拦截
+  - [什么是「拦截」？](/zh-hans/prevent-what-is)
+
 - 激活
 
   - [订单号激活](/zh-hans/activate-key)
