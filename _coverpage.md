@@ -11,3 +11,4 @@
 - Prevents new files from being created <small>(Advanced)</small>
 
 [Try](/get-started)
+[Learn More](#main-features)

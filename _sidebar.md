@@ -1,4 +1,3 @@
-- [Home](/)
 - [Get Started](/get-started)
 
 - Prevent

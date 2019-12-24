@@ -1,4 +1,3 @@
-- [主页](/zh-hans)
 - [开始使用](/zh-hans/get-started)
 
 - 拦截
