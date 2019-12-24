@@ -43,6 +43,11 @@
         }
     };
   </script>
+  <script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+  </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4.10.2/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4.10.2/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4.10.2/lib/plugins/ga.min.js"></script>
