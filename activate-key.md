@@ -11,7 +11,7 @@ Dir privides various methods for activating. If you already unlocked or have a l
 Open Alipay, search your order (You could try `Dir`, `Dir Pro Version`, etc). Then, copy `Order number (Chinese is called "订单号")` and paste it into "Activate" dialog.
 
 ## I've unlocked via Alipay before June 1, 2017
-Because we've updated our system, you can't activate with order number directly. Please send a screenshot of your order page to [support@appline.xyz](support@appline.xyz) , we'll **confirm** your purchase. After that, you can use your `Order number` to activate.
+Because we've updated our system, you can't activate with order number directly. Please submit your order info via [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=MdL-YdVgcEayTUWUS-k9DNztiInSSkBGvLMm_gv6XHBUNjhSVklLRlFNSk1ENTA2RThJV0VUUkVSNi4u), and we will **confirm** it manually.
 
 ## I've used WeChat or got a key from the developer in other ways.
 > Note: The key should begain with 'R'.

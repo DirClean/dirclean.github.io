@@ -11,7 +11,7 @@ Dir 提供了多种激活方式，如果您已购买或具有一个激活码，�
 打开支付宝。找到您的账单（可以尝试搜索 `Dir`、`Dir Pro Version` 等）。在订单详情页复制 `订单号` 或 商户订单号 到「激活」框即可完成激活。
 
 ## 我曾在 2017 年 6 月 1 日前使用支付宝购买
-由于系统变更，您无法直接通过订单号激活。请将您的订单截图发给 [support@appline.xyz](mailto:support@appline.xyz) ，我们会 *确认* 您的购买。确认完成后您就可以填入 `订单号` 进行激活了。
+由于系统变更，您无法直接通过订单号激活。请通过 [此表单](https://forms.office.com/Pages/ResponsePage.aspx?id=MdL-YdVgcEayTUWUS-k9DNztiInSSkBGvLMm_gv6XHBUNjhSVklLRlFNSk1ENTA2RThJV0VUUkVSNi4u) 填写支付宝订单信息，我们会人工 **确认** 它。
 
 ## 我曾使用微信或其它途径从开发者获得激活码
 > 注：这种激活码以大写字母 'R' 开头。
