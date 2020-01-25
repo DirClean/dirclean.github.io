@@ -14,7 +14,7 @@ Open Alipay, search your order (You could try `Dir`, `Dir Pro Version`, etc). Th
 Because we've updated our system, you can't activate with order number directly. Please submit your order info via [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=MdL-YdVgcEayTUWUS-k9DNztiInSSkBGvLMm_gv6XHBUNjhSVklLRlFNSk1ENTA2RThJV0VUUkVSNi4u), and we will **confirm** it manually.
 
 ## I've used WeChat or got a key from the developer in other ways.
-> Note: The key should begain with 'R'.
+> Note: The key should begin with 'R'.
 
 You can just paste your key into the dialog.
 
