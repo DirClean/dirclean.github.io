@@ -1,8 +1,8 @@
 # 商店激活
 
-如果您在 appline.store（前 shop.yuuta.moe）购买了 Dir，请跟着本教程激活。
+如果您在 store.appline.xyz 或 appline.store（前 shop.yuuta.moe）购买了 Dir，请跟着本教程激活。
 
-1. 登录您的 [appline.store/my-account](https://appline.store/my-account) 账户。
+1. 登录您的 [store.appline.xyz/my-account](https://store.appline.xyz/my-account) 账户。
 
 2. 转到 `订单`
 
@@ -12,7 +12,7 @@
 
 5. 打开 Dir、转到设置、解锁完整版，点按 `激活`
 
-6. 输入您的 appline.store 登录邮箱，以及序列号
+6. 输入您的 store.appline.xyz 或 appline.store 登录邮箱，以及序列号
 
 7. 点按 `激活`
 

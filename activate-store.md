@@ -1,8 +1,8 @@
 # Store Activation
 
-If you had purchased using appline.store (former shop.yuuta.moe), you should follow this guide to activate your copy.
+If you had purchased using store.appline.xyz or appline.store (former shop.yuuta.moe), you should follow this guide to activate your copy.
 
-1. Login to your [appline.store/my-account](https://appline.store/my-account) account.
+1. Login to your [store.appline.xyz/my-account](https://store.appline.xyz/my-account) account.
 
 2. Go to `Orders`
 
@@ -12,7 +12,7 @@ If you had purchased using appline.store (former shop.yuuta.moe), you should fol
 
 5. Open Dir, go to settings, unlock full version, and click on `Activate`
 
-6. Type your email used to login appline.store, and your serial number.
+6. Type your email used to login store.appline.xyz or appline.store, and your serial number.
 
 7. Click on `Activate`
 
